@@ -11,3 +11,8 @@
 
 
 #endif /* linphone_Bridging_Header_h */
+
+
+#import "linphone/linphonecore.h"
+#import "linphone/linphonecore.h"
+#import "linphone/linphonecore_utils.h"

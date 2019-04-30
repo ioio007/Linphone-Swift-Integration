@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C3C4CD922787EC000C24BC8 /* LinphoneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3C4CD822787EC000C24BC8 /* LinphoneManager.swift */; };
 		7CE46C222278781E00775174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE46C212278781E00775174 /* AppDelegate.swift */; };
 		7CE46C242278781E00775174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE46C232278781E00775174 /* ViewController.swift */; };
 		7CE46C272278781E00775174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE46C252278781E00775174 /* Main.storyboard */; };
 		7CE46C292278782200775174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE46C282278782200775174 /* Assets.xcassets */; };
 		7CE46C2C2278782200775174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE46C2A2278782200775174 /* LaunchScreen.storyboard */; };
+		9F23CB87921271738B23469D /* Pods_linphoneSwiftIntegrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676DAE90BDDB02410207749C /* Pods_linphoneSwiftIntegrate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A8B44AB6B4D9899291462E3 /* Pods-linphoneSwiftIntegrate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphoneSwiftIntegrate.debug.xcconfig"; path = "Target Support Files/Pods-linphoneSwiftIntegrate/Pods-linphoneSwiftIntegrate.debug.xcconfig"; sourceTree = "<group>"; };
+		676DAE90BDDB02410207749C /* Pods_linphoneSwiftIntegrate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_linphoneSwiftIntegrate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C3C4CD722787E2700C24BC8 /* linphone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "linphone-Bridging-Header.h"; sourceTree = "<group>"; };
+		7C3C4CD822787EC000C24BC8 /* LinphoneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinphoneManager.swift; sourceTree = "<group>"; };
 		7CE46C1E2278781E00775174 /* linphoneSwiftIntegrate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = linphoneSwiftIntegrate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE46C212278781E00775174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CE46C232278781E00775174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,7 @@
 		7CE46C282278782200775174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CE46C2B2278782200775174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CE46C2D2278782200775174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22401D4A1804448CA28108F /* Pods-linphoneSwiftIntegrate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linphoneSwiftIntegrate.release.xcconfig"; path = "Target Support Files/Pods-linphoneSwiftIntegrate/Pods-linphoneSwiftIntegrate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F23CB87921271738B23469D /* Pods_linphoneSwiftIntegrate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +48,8 @@
 			children = (
 				7CE46C202278781E00775174 /* linphoneSwiftIntegrate */,
 				7CE46C1F2278781E00775174 /* Products */,
+				867E03D51E064A805A734800 /* Pods */,
+				AAB50A97477804E780605E9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +70,27 @@
 				7CE46C282278782200775174 /* Assets.xcassets */,
 				7CE46C2A2278782200775174 /* LaunchScreen.storyboard */,
 				7CE46C2D2278782200775174 /* Info.plist */,
+				7C3C4CD722787E2700C24BC8 /* linphone-Bridging-Header.h */,
+				7C3C4CD822787EC000C24BC8 /* LinphoneManager.swift */,
 			);
 			path = linphoneSwiftIntegrate;
+			sourceTree = "<group>";
+		};
+		867E03D51E064A805A734800 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A8B44AB6B4D9899291462E3 /* Pods-linphoneSwiftIntegrate.debug.xcconfig */,
+				F22401D4A1804448CA28108F /* Pods-linphoneSwiftIntegrate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AAB50A97477804E780605E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				676DAE90BDDB02410207749C /* Pods_linphoneSwiftIntegrate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +100,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CE46C302278782200775174 /* Build configuration list for PBXNativeTarget "linphoneSwiftIntegrate" */;
 			buildPhases = (
+				435934DD67A063AA7F072BEF /* [CP] Check Pods Manifest.lock */,
 				7CE46C1A2278781E00775174 /* Sources */,
 				7CE46C1B2278781E00775174 /* Frameworks */,
 				7CE46C1C2278781E00775174 /* Resources */,
+				49107E5BF619857E8308842E /* [CP] Embed Pods Frameworks */,
+				573DAFC55F4B2CCEA012D2C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +162,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		435934DD67A063AA7F072BEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-linphoneSwiftIntegrate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49107E5BF619857E8308842E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-linphoneSwiftIntegrate/Pods-linphoneSwiftIntegrate-frameworks.sh",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/bctoolbox.framework",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/belcard.framework",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/belr.framework",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/lime.framework",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/linphone.framework",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/linphonetester.framework",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/mediastreamer2.framework",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/msamr.framework",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/mscodec2.framework",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/msopenh264.framework",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/mssilk.framework",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/mswebrtc.framework",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/msx264.framework",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks/ortp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/bctoolbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/belcard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/belr.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/lime.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/linphone.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/linphonetester.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mediastreamer2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/msamr.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mscodec2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/msopenh264.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mssilk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mswebrtc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/msx264.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ortp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-linphoneSwiftIntegrate/Pods-linphoneSwiftIntegrate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		573DAFC55F4B2CCEA012D2C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-linphoneSwiftIntegrate/Pods-linphoneSwiftIntegrate-resources.sh",
+				"${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Resources/liblinphone_tester",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/liblinphone_tester",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-linphoneSwiftIntegrate/Pods-linphoneSwiftIntegrate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7CE46C1A2278781E00775174 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +264,7 @@
 			files = (
 				7CE46C242278781E00775174 /* ViewController.swift in Sources */,
 				7CE46C222278781E00775174 /* AppDelegate.swift in Sources */,
+				7C3C4CD922787EC000C24BC8 /* LinphoneManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +408,7 @@
 		};
 		7CE46C312278782200775174 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8B44AB6B4D9899291462E3 /* Pods-linphoneSwiftIntegrate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +420,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = JPower.linphoneSwiftIntegrate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jennyhuang/Desktop/linphoneSwiftIntegrate/linphoneSwiftIntegrate/linphone-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +428,7 @@
 		};
 		7CE46C322278782200775174 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22401D4A1804448CA28108F /* Pods-linphoneSwiftIntegrate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +440,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = JPower.linphoneSwiftIntegrate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jennyhuang/Desktop/linphoneSwiftIntegrate/linphoneSwiftIntegrate/linphone-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/linphone-sdk/linphone-sdk/apple-darwin/Frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "bctoolbox" -framework "belcard" -framework "belr" -framework "lime" -framework "linphone" -framework "linphonetester" -framework "mediastreamer2" -framework "msamr" -framework "mscodec2" -framework "msopenh264" -framework "mssilk" -framework "mswebrtc" -framework "msx264" -framework "ortp"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
